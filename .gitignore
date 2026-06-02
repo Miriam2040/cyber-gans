@@ -3,6 +3,7 @@ data/battles/
 data/shots/
 data/prs/
 data/cve_cache/
+data/cves.json
 data/last_battle.json
 data/*_backup_*/
 data/*.md
