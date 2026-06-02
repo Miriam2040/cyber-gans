@@ -1,0 +1,29 @@
+{
+  "experiment_number": 22,
+  "pr_number": 21041,
+  "pr_title": "Fixed #36901 -- Centralized and cleaned_up mitigations against timing attacks targeting user enumeration",
+  "pr_url": "https://github.com/django/django/pull/21041",
+  "track_a": {
+    "use_learning": true,
+    "cve_id": "CVE-2014-0482",
+    "critic_approved": true,
+    "injection_valid": true,
+    "vulnerability_class": "security",
+    "defender_verdict": "vulnerable",
+    "defender_correct": true,
+    "true_winner": "defender"
+  },
+  "track_b": {
+    "use_learning": false,
+    "cve_id": "CVE-2021-33880",
+    "critic_approved": true,
+    "injection_valid": true,
+    "vulnerability_class": "security",
+    "defender_verdict": "vulnerable",
+    "defender_correct": true,
+    "true_winner": "defender"
+  },
+  "learning_helped_attacker": false,
+  "learning_helped_defender": false,
+  "same_outcome": true
+}

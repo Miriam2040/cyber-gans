@@ -1,6 +1,5 @@
 .env
 data/battles/
-data/ab_experiments/
 data/shots/
 data/prs/
 data/cve_cache/
