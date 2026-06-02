@@ -1,0 +1,13 @@
+.env
+data/battles/
+data/ab_experiments/
+data/shots/
+data/prs/
+data/cve_cache/
+data/last_battle.json
+data/*_backup_*/
+data/*.md
+__pycache__/
+*.pyc
+.DS_Store
+.claude/

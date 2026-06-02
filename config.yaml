@@ -1,0 +1,16 @@
+# Provider: google | anthropic | groq
+# Google Gemini is FREE — get key at https://aistudio.google.com/
+provider: google
+
+models:
+  google: gemini-2.5-flash
+  critic: gemini-2.5-flash-lite  # smaller/lighter model — different behavior, not self-review
+  anthropic: claude-sonnet-4-6
+  groq: llama-3.3-70b-versatile
+
+# Target repo for PR source. Switch to server-side repos for richer security surface:
+#   psf/requests       — HTTP client (TLS, auth, redirect)
+#   django/django      — Web framework (auth, ORM, sessions, middleware) ← SOC goldmine
+#   pallets/flask      — WSGI framework (routing, cookies, blueprints)
+#   encode/httpx       — Async HTTP client
+target_repo: django/django
